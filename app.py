@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def form_pki():
-    return render_template('form.html')
+    return render_template('index.html')
 
 
 
